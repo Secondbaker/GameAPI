@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :compatible_consoles
   resources :games
   resources :consoles do
     

@@ -1,0 +1,2 @@
+class CompatibleConsole < ApplicationRecord
+end

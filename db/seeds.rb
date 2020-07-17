@@ -6,6 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+CompatibleConsole.destroy_all
 Console.destroy_all
 Game.destroy_all
 
@@ -22,7 +23,13 @@ CONSOLE_LIST = [
     "GameCube",
     "PlayStation 4",
     "Super NES Mini",
-    "Genesis"
+    "Genesis",
+    "Gameboy Pocket",
+    "Gameboy Color",
+    "Gameboy Advance",
+    "DS",
+    "3DS",
+    "3DS XL"
 ]
 
 PS2_GAMES = [
