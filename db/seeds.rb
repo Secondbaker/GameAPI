@@ -32,6 +32,30 @@ CONSOLE_LIST = [
     "3DS XL"
 ]
 
+COMPATIBILITY_TABLE = {
+    "Nintendo Entertainment System": ["Nintendo Entertainment System"],
+    "Nintendo 64": ["Nintendo 64"],
+    "PlayStation 2": ["PlayStation 1", "PlayStation 2"],
+    "Dreamcast": ["Dreamcast"],
+    "Super Famicom": ["Super Famicom"],
+    "Super Nintendo Enterntainment System(?)": ["Super Nintendo Entertainment System"],
+    "Xbox One": ["Xbox One"],
+    "Nintendo Switch": ["Nintendo Switch"],
+    "Wii U": ["Wii", "Wii U"],
+    "GameCube": ["GameCube"],
+    "PlayStation 4": ["PlayStation 4"],
+    "Super NES Mini": ["Super NES Mini"],
+    "Genesis": ["Genesis"],
+    "GameBoy Pocket": ["GameBoy"],
+    "Gameboy Color": ["GameBoy", "GameBoy Color"],
+    "Gameboy Advance": ["GameBoy", "GameBoy Color", "GameBoy Advance"],
+    "DS": ["DS", "GameBoy Advance"],
+    "3DS": ["3DS", "DS"],
+    "New 3DS": ["New 3DS", "3DS", "DS"],
+    "New 3DS XL": ["New 3DS", "3DS", "DS"]
+
+}
+
 PS2_GAMES = [
     "A Series of Unfortunate Events",
     "American Idol",
@@ -53,11 +77,15 @@ PS2_GAMES = [
     "SSX Tricky"
 ]
 
-CONSOLE_LIST.each do |console|
-    Console.create(name: console)    
+COMPATIBILITY_TABLE.each do |console|
+    puts console.inspect
+    next_console = Console.create(name: console[0])
+    console[1].each do |compatible_console|
+        next_console.compatible_consoles.find_or_create_by(name: compatible_console)
+    end
 end
 
-ps2 = Console.find_by(name: "PlayStation 2");
+ps2 = CompatibleConsole.find_by(name: "PlayStation 2");
 PS2_GAMES.each do |game|
     ps2.games.create(name: game)
 end
