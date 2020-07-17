@@ -12,6 +12,12 @@ class GamesController < ApplicationController
   def show
   end
 
+  def random
+    count = Game.count
+    random_offset = rand(count)
+    @game = Game.offset(random_offset).first
+  end
+
   # GET /games/new
   def new
     @game = Game.new
