@@ -12,6 +12,12 @@ class ConsolesController < ApplicationController
   def show
   end
 
+  def random
+    count = Console.count
+    random_offset = rand(count)
+    @console = Console.offset(random_offset).first
+  end
+
   # GET /consoles/new
   def new
     @console = Console.new
