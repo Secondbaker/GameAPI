@@ -11,14 +11,14 @@ Console.destroy_all
 Game.destroy_all
 
 INFO_TABLE = [
-    { console: "Nintendo Entertainment System", 
-        compatible_console: ["Nintendo Entertainment System"],
+    { compatible_console: "Nintendo Entertainment System", 
+        consoles: ["Nintendo Entertainment System"],
         games: [] },
-    { console: "Nintendo 64",
-        compatible_console: ["Nintendo 64"],
+    { compatible_console: "Nintendo 64",
+        consoles: ["Nintendo 64"],
         games: [] },
-    { console: "PlayStation 2",
-        compatible_console: ["PlayStation 1", "PlayStation 2"],
+    { compatible_console: "PlayStation 2",
+        consoles: ["PlayStation 2"],
         games: [
             "A Series of Unfortunate Events",
             "American Idol",
@@ -39,25 +39,60 @@ INFO_TABLE = [
             "Spongebob Squarepants:  Lights, Camera, Pants",
             "SSX Tricky"
         ] },
-    { console: "Dreamcast",
-        compatible_console: ["Dreamcast"],
+    { compatible_console: "Dreamcast",
+        consoles: ["Dreamcast"],
         games: [] },
-    "Super Famicom": ["Super Famicom"],
-    "Super Nintendo Enterntainment System(?)": ["Super Nintendo Entertainment System"],
-    "Xbox One": ["Xbox One"],
-    "Nintendo Switch": ["Nintendo Switch"],
-    "Wii U": ["Wii", "Wii U"],
-    "GameCube": ["GameCube"],
-    "PlayStation 4": ["PlayStation 4"],
-    "Super NES Mini": ["Super NES Mini"],
-    "Genesis": ["Genesis"],
-    "GameBoy Pocket": ["GameBoy"],
-    "Gameboy Color": ["GameBoy", "GameBoy Color"],
-    "Gameboy Advance": ["GameBoy", "GameBoy Color", "GameBoy Advance"],
-    "DS": ["DS", "GameBoy Advance"],
-    "3DS": ["3DS", "DS"],
-    "New 3DS": ["New 3DS", "3DS", "DS"],
-    "New 3DS XL": ["New 3DS", "3DS", "DS"]
+    { compatible_console: "Super Famicom",
+        consoles: ["Super Famicom"],
+        games: [] },
+    { compatible_console: "Super Nintendo Enterntainment System(?)",
+        consoles: ["Super Nintendo Entertainment System"],
+        games: [] },
+    { compatible_console: "Xbox One",
+        consoles: ["Xbox One"],
+        games: [] },
+    { compatible_console: "Nintendo Switch",
+        consoles: ["Nintendo Switch"],
+        games: [] },
+    { compatible_console: "Wii U",
+        consoles: ["Wii U"],
+        games: [] },
+    { compatible_console: "Wii",
+        consoles: ["Wii U"],
+        games: [] },
+    { compatible_console: "GameCube",
+        consoles: ["GameCube"],
+        games: [] },
+    { compatible_console: "PlayStation 4",
+        consoles: ["PlayStation 4"],
+        games: [] },
+    { compatible_console: "Super NES Mini",
+        consoles: ["Super NES Mini"],
+        games: [] },
+    { compatible_console: "Genesis",
+        consoles: ["Genesis"],
+        games: [] },
+    { compatible_console: "GameBoy",
+        consoles: ["GameBoy Pocket", "GameBoy Color (Pink)", "GameBoy Color (Pokemon)", "GameBoy Advance", "GameCube GameBoy Player"],
+        games: [] },
+    { compatible_console: "GameBoy Color",
+        consoles: ["GameBoy Color (Pink)", "GameBoy Color (Pokemon)", "GameBoy Advance", "GameCube GameBoy Player"],
+        games: [] },
+    { compatible_console: "Gameboy Advance",
+        consoles: ["GameBoy Advance", "DS (Blue)", "DS (Silver)", "GameCube GameBoy Player"],
+        games: [] },
+    { compatible_console: "DS",
+        consoles: ["DS", "3DS (Purple)", "3DS (Zelda)", "New 3DS", "New 3DS XL (Majora's Mask)"],
+        games: [] },
+    { compatible_console: "3DS",
+        consoles: ["3DS (Purple)", "3DS (Zelda)", "New 3DS", "New 3DS XL (Majora's Mask)"],
+        games: [] },
+    { compatible_console: "New 3DS",
+        consoles: ["New 3DS", "New 3DS XL (Majora's Mask)"],
+        games: [] },
+    { compatible_console: "3DS (Japan)",
+        consoles: ["New 3DS XL (Pokemon Sun and Moon)"],
+        games: [] }
 ]
 
 PS2_GAMES = [
@@ -81,15 +116,7 @@ PS2_GAMES = [
     "SSX Tricky"
 ]
 
-COMPATIBILITY_TABLE.each do |console|
-    puts console.inspect
-    next_console = Console.create(name: console[0])
-    console[1].each do |compatible_console|
-        next_console.compatible_consoles.find_or_create_by(name: compatible_console)
-    end
+INFO_TABLE.each do |info|
+    
 end
 
-ps2 = CompatibleConsole.find_by(name: "PlayStation 2");
-PS2_GAMES.each do |game|
-    ps2.games.create(name: game)
-end
