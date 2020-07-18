@@ -7,17 +7,18 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 CompatibleConsole.destroy_all
+GameSystem.destroy_all
 Console.destroy_all
 Game.destroy_all
 
 INFO_TABLE = [
-    { compatible_console: "Nintendo Entertainment System", 
+    { game_system: "Nintendo Entertainment System", 
         consoles: ["Nintendo Entertainment System"],
         games: [] },
-    { compatible_console: "Nintendo 64",
+    { game_system: "Nintendo 64",
         consoles: ["Nintendo 64"],
         games: [] },
-    { compatible_console: "PlayStation 2",
+    { game_system: "PlayStation 2",
         consoles: ["PlayStation 2"],
         games: [
             "A Series of Unfortunate Events",
@@ -39,58 +40,58 @@ INFO_TABLE = [
             "Spongebob Squarepants:  Lights, Camera, Pants",
             "SSX Tricky"
         ] },
-    { compatible_console: "Dreamcast",
+    { game_system: "Dreamcast",
         consoles: ["Dreamcast"],
         games: [] },
-    { compatible_console: "Super Famicom",
+    { game_system: "Super Famicom",
         consoles: ["Super Famicom"],
         games: [] },
-    { compatible_console: "Super Nintendo Enterntainment System(?)",
+    { game_system: "Super Nintendo Enterntainment System(?)",
         consoles: ["Super Nintendo Entertainment System"],
         games: [] },
-    { compatible_console: "Xbox One",
+    { game_system: "Xbox One",
         consoles: ["Xbox One"],
         games: [] },
-    { compatible_console: "Nintendo Switch",
+    { game_system: "Nintendo Switch",
         consoles: ["Nintendo Switch"],
         games: [] },
-    { compatible_console: "Wii U",
+    { game_system: "Wii U",
         consoles: ["Wii U"],
         games: [] },
-    { compatible_console: "Wii",
+    { game_system: "Wii",
         consoles: ["Wii U"],
         games: [] },
-    { compatible_console: "GameCube",
+    { game_system: "GameCube",
         consoles: ["GameCube"],
         games: [] },
-    { compatible_console: "PlayStation 4",
+    { game_system: "PlayStation 4",
         consoles: ["PlayStation 4"],
         games: [] },
-    { compatible_console: "Super NES Mini",
+    { game_system: "Super NES Mini",
         consoles: ["Super NES Mini"],
         games: [] },
-    { compatible_console: "Genesis",
+    { game_system: "Genesis",
         consoles: ["Genesis"],
         games: [] },
-    { compatible_console: "GameBoy",
+    { game_system: "GameBoy",
         consoles: ["GameBoy Pocket", "GameBoy Color (Pink)", "GameBoy Color (Pokemon)", "GameBoy Advance", "GameCube GameBoy Player"],
         games: [] },
-    { compatible_console: "GameBoy Color",
+    { game_system: "GameBoy Color",
         consoles: ["GameBoy Color (Pink)", "GameBoy Color (Pokemon)", "GameBoy Advance", "GameCube GameBoy Player"],
         games: [] },
-    { compatible_console: "Gameboy Advance",
+    { game_system: "Gameboy Advance",
         consoles: ["GameBoy Advance", "DS (Blue)", "DS (Silver)", "GameCube GameBoy Player"],
         games: [] },
-    { compatible_console: "DS",
+    { game_system: "DS",
         consoles: ["DS", "3DS (Purple)", "3DS (Zelda)", "New 3DS", "New 3DS XL (Majora's Mask)"],
         games: [] },
-    { compatible_console: "3DS",
+    { game_system: "3DS",
         consoles: ["3DS (Purple)", "3DS (Zelda)", "New 3DS", "New 3DS XL (Majora's Mask)"],
         games: [] },
-    { compatible_console: "New 3DS",
+    { game_system: "New 3DS",
         consoles: ["New 3DS", "New 3DS XL (Majora's Mask)"],
         games: [] },
-    { compatible_console: "3DS (Japan)",
+    { game_system: "3DS (Japan)",
         consoles: ["New 3DS XL (Pokemon Sun and Moon)"],
         games: [] }
 ]
@@ -117,6 +118,12 @@ PS2_GAMES = [
 ]
 
 INFO_TABLE.each do |info|
-    
+    gs = GameSystem.create(name: info[:game_system])
+    info[:consoles].each do |console|
+        gs.consoles.find_or_create_by(name: console)
+    end
+    info[:games].each do |game|
+        gs.games.find_or_create_by(name: game)
+    end
 end
 
