@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @game_system.name %>
+</p>
+
+<strong>Consoles:</strong>
+<% @game_system.consoles.each do |console| %>
+    <p><%= console.name %></p>
+<% end %>
+
+<%= link_to 'Edit', edit_game_system_path(@game_system) %> |
+<%= link_to 'Back', game_systems_path %>

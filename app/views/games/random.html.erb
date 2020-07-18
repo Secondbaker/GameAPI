@@ -5,6 +5,13 @@
   <%= @game.name %>
 </p>
 
+<% @game.game_systems.each do |system| %>
+  <p>
+    <strong>System:</strong>
+    <%= system.name %>
+    </p>
+<% end %>
+
 <% @game.consoles.each do |console| %>
     <p>
     <strong>Console:</strong>
