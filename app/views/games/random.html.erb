@@ -5,10 +5,12 @@
   <%= @game.name %>
 </p>
 
-<p>
-  <strong>Console:</strong>
-  <%= @game.console.name %>
-</p>
+<% @game.consoles.each do |console| %>
+    <p>
+    <strong>Console:</strong>
+    <%= console.name %>
+    </p>
+<% end %>
 
 <%= link_to 'Edit', edit_game_path(@game) %> |
 <%= link_to 'Back', games_path %>

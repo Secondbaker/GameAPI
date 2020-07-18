@@ -10,33 +10,38 @@ CompatibleConsole.destroy_all
 Console.destroy_all
 Game.destroy_all
 
-CONSOLE_LIST = [
-    "Nintendo Entertainment System",
-    "Nintendo 64",
-    "PlayStation 2",
-    "Dreamcast",
-    "Super Famicom",
-    "Super Nintendo Enterntainment System(?)",
-    "Xbox One",
-    "Nintendo Switch",
-    "Wii U",
-    "GameCube",
-    "PlayStation 4",
-    "Super NES Mini",
-    "Genesis",
-    "Gameboy Pocket",
-    "Gameboy Color",
-    "Gameboy Advance",
-    "DS",
-    "3DS",
-    "3DS XL"
-]
-
-COMPATIBILITY_TABLE = {
-    "Nintendo Entertainment System": ["Nintendo Entertainment System"],
-    "Nintendo 64": ["Nintendo 64"],
-    "PlayStation 2": ["PlayStation 1", "PlayStation 2"],
-    "Dreamcast": ["Dreamcast"],
+INFO_TABLE = [
+    { console: "Nintendo Entertainment System", 
+        compatible_console: ["Nintendo Entertainment System"],
+        games: [] },
+    { console: "Nintendo 64",
+        compatible_console: ["Nintendo 64"],
+        games: [] },
+    { console: "PlayStation 2",
+        compatible_console: ["PlayStation 1", "PlayStation 2"],
+        games: [
+            "A Series of Unfortunate Events",
+            "American Idol",
+            "ATV Offroad Fury 2",
+            "Final Fantasy X",
+            "Hot Shots Golf 3",
+            "Katamari Damacy",
+            "Kingdom Hearts",
+            "Kingdom Hearts II",
+            "Mega Man X Collection",
+            "Naruto:  Ultimate Ninja",
+            "Naruto:  Ultimate Ninja 2",
+            "Shadow the Hedgehog",
+            "Shrek 2",
+            "Sly 3:  Honor Among Thieves",
+            "Spongebob Squarepants:  Battle For Bikini Bottom",
+            "Spongebob Squarepants Movie, The",
+            "Spongebob Squarepants:  Lights, Camera, Pants",
+            "SSX Tricky"
+        ] },
+    { console: "Dreamcast",
+        compatible_console: ["Dreamcast"],
+        games: [] },
     "Super Famicom": ["Super Famicom"],
     "Super Nintendo Enterntainment System(?)": ["Super Nintendo Entertainment System"],
     "Xbox One": ["Xbox One"],
@@ -53,8 +58,7 @@ COMPATIBILITY_TABLE = {
     "3DS": ["3DS", "DS"],
     "New 3DS": ["New 3DS", "3DS", "DS"],
     "New 3DS XL": ["New 3DS", "3DS", "DS"]
-
-}
+]
 
 PS2_GAMES = [
     "A Series of Unfortunate Events",
