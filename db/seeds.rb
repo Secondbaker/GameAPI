@@ -6,7 +6,6 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-CompatibleConsole.destroy_all
 GameSystem.destroy_all
 Console.destroy_all
 Game.destroy_all
@@ -83,17 +82,19 @@ INFO_TABLE = [
         consoles: ["GameBoy Advance", "DS (Blue)", "DS (Silver)", "GameCube GameBoy Player"],
         games: [] },
     { game_system: "DS",
-        consoles: ["DS", "3DS (Purple)", "3DS (Zelda)", "New 3DS", "New 3DS XL (Majora's Mask)"],
+        consoles: ["DS", "3DS (Purple)", "3DS (Zelda)", "New 3DS", "New 3DS XL (Majora's Mask)", "New 3DS XL (Pokemon Sun and Moon)"],
         games: [] },
     { game_system: "3DS",
-        consoles: ["3DS (Purple)", "3DS (Zelda)", "New 3DS", "New 3DS XL (Majora's Mask)"],
+        consoles: ["3DS (Purple)", "3DS (Zelda)", "New 3DS", "New 3DS XL (Majora's Mask)", "New 3DS XL (Pokemon Sun and Moon)"],
         games: [] },
     { game_system: "New 3DS",
         consoles: ["New 3DS", "New 3DS XL (Majora's Mask)"],
         games: [] },
     { game_system: "3DS (Japan)",
         consoles: ["New 3DS XL (Pokemon Sun and Moon)"],
-        games: [] }
+        games: ["Super Mario Bros. 2 (JP) Famicom VC",
+        "Rockman X Super Famicom VC",
+        "Final Fantasy Famicom VC"] }
 ]
 
 PS2_GAMES = [
