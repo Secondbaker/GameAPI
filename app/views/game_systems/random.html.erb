@@ -2,12 +2,17 @@
 
 <p>
   <strong>Name:</strong>
-  <%= @game_system.name %>
+  <%= @game_system.name %> (<%= @game_system.id %>)
 </p>
 
 <strong>Consoles:</strong>
 <% @game_system.consoles.each do |console| %>
     <p><%= console.name %></p>
+<% end %>
+
+<strong>Games:</strong>
+<% @game_system.games.each do |game| %>
+  <p><%= game.name %></p>
 <% end %>
 
 <%= link_to 'Edit', edit_game_system_path(@game_system) %> |

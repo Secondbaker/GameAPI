@@ -5,5 +5,15 @@
   <%= @console.name %>
 </p>
 
+<strong>Systems:</strong>
+<% @console.game_systems.each do |system| %>
+  <p><%= system.name %></p>
+<% end %>
+
+<strong>Games:</strong>
+<% @console.games.each do |game| %>
+  <p><%= game.name %></p>
+<% end %>
+
 <%= link_to 'Edit', edit_console_path(@console) %> |
 <%= link_to 'Back', consoles_path %>

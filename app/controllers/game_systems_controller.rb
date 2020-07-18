@@ -1,5 +1,5 @@
 class GameSystemsController < ApplicationController
-  before_action :set_game_system, only: [:show, :edit, :update, :destroy]
+  before_action :set_game_system, only: [:show, :edit, :update, :destroy, :random_game]
 
   # GET /game_systems
   # GET /game_systems.json
@@ -16,6 +16,12 @@ class GameSystemsController < ApplicationController
     count = GameSystem.count
     random_offset = rand(count)
     @game_system = GameSystem.offset(random_offset).first
+  end
+
+  def random_game
+    count = @game_system.games.count
+    random_offset = rand(count)
+    @game = @game_system.games.offset(random_offset).first  
   end
 
   # GET /game_systems/new
