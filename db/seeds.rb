@@ -8,22 +8,23 @@
 
 GameSystem.destroy_all
 Console.destroy_all
+Title.destroy_all
 Game.destroy_all
 
 INFO_TABLE = [
     { game_system: "Nintendo Entertainment System", 
         consoles: ["Nintendo Entertainment System"],
-        games: [] },
+        titles: [] },
     { game_system: "Nintendo 64 (JP)",
         consoles: ["Nintendo 64 - Jungle Green (Modded)"],
-        games: [
+        titles: [
             "Pokemon Snap (JP)",
             "Animal Crossing (JP)",
             "Mystical Ninja Starring Goemon"
         ]},
     { game_system: "Nintendo 64",
         consoles: ["Nintendo 64 - Jungle Green (Modded)"],
-        games: [
+        titles: [
             "Beetle Adventure Racing",
             "Diddy Kong Racing",
             "F-Zero X",
@@ -39,7 +40,7 @@ INFO_TABLE = [
         ] },
     { game_system: "PlayStation 2",
         consoles: ["PlayStation 2"],
-        games: [
+        titles: [
             "A Series of Unfortunate Events",
             "American Idol",
             "ATV Offroad Fury 2",
@@ -61,13 +62,13 @@ INFO_TABLE = [
         ] },
     { game_system: "Dreamcast",
         consoles: ["Dreamcast"],
-        games: ["Sega Smash Pack Volume 1"] },
+        titles: ["Sega Smash Pack Volume 1"] },
     { game_system: "Super Famicom",
         consoles: ["Super Famicom"],
-        games: [] },
+        titles: [] },
     { game_system: "Super Nintendo Enterntainment System",
         consoles: ["Super Nintendo Entertainment System(?)"],
-        games: ["Clue",
+        titles: ["Clue",
         "Donkey Kong Country 2:  Diddy's Kong Quest",
         "The Legend of Zelda:  A Link to the Past",
         "Mega Man X",
@@ -80,13 +81,13 @@ INFO_TABLE = [
         "Zoop"] },
     { game_system: "Xbox One",
         consoles: ["Xbox One"],
-        games: ["Rare Replay"] },
+        titles: ["Rare Replay"] },
     { game_system: "Nintendo Switch",
         consoles: ["Nintendo Switch"],
-        games: [] },
+        titles: [] },
     { game_system: "Wii U",
         consoles: ["Wii U"],
-        games: [
+        titles: [
             "Animal Crossing:  amiibo Festival",
             "Batman Arkham City Armored Edition",
             "Bayonetta 2",
@@ -110,7 +111,7 @@ INFO_TABLE = [
             "Yoshi's Wooly World"] },
     { game_system: "Wii",
         consoles: ["Wii U"],
-        games: ["Animal Crossing:  City Folk",
+        titles: ["Animal Crossing:  City Folk",
         "Donkey Kong Country Returns",
         "Kirby's Dream Collection Special Edition",
         "Kirby's Epic Yarn",
@@ -128,10 +129,10 @@ INFO_TABLE = [
         "Super Smash Bros. Brawl"] },
     { game_system: "GameCube (JP)",
         consoles: ["GameCube (with Action Replay)"],
-        games: ["Animal Crossing e+"] },
+        titles: ["Animal Crossing e+"] },
     { game_system: "GameCube",
         consoles: ["GameCube"],
-        games: ["F-Zero GX",
+        titles: ["F-Zero GX",
         "Harvest Moon:  A Wonderful Life",
         "Kirby Air Ride",
         "The Legend of Zelda:  Special Collector's Edition",
@@ -145,7 +146,7 @@ INFO_TABLE = [
         "Super Mario Sunshine"] },
     { game_system: "PlayStation 4",
         consoles: ["PlayStation 4"],
-        games: ["Persona 5",
+        titles: ["Persona 5",
         "Doom (2016) (Digital)",
         "Parappa the Rapper (Digital)",
         "Final Fantasy XV",
@@ -154,7 +155,7 @@ INFO_TABLE = [
         "Uncharted 4:  A Thief's Tale"] },
     { game_system: "Super NES Mini",
         consoles: ["Super NES Mini"],
-        games: ["Contra III:  The Alien Wars",
+        titles: ["Contra III:  The Alien Wars",
         "Donkey Kong Country",
         "EarthBound",
         "Final Fantasy III",
@@ -177,10 +178,10 @@ INFO_TABLE = [
         "Star Fox 2"] },
     { game_system: "Genesis",
         consoles: ["Genesis"],
-        games: ["Ecco the Dolphin", "The Lion King", "Pac Man 2:  The New Adventures", "Sonic the Hedgehog", "Sonic the Hedgehog 2", "Sonic & Knuckles", "Street Fighter II':  Special Champions Edition"] },
+        titles: ["Ecco the Dolphin", "The Lion King", "Pac Man 2:  The New Adventures", "Sonic the Hedgehog", "Sonic the Hedgehog 2", "Sonic & Knuckles", "Street Fighter II':  Special Champions Edition"] },
     { game_system: "GameBoy",
         consoles: ["GameBoy Pocket", "GameBoy Color (Pink)", "GameBoy Color (Pokemon)", "GameBoy Advance", "GameCube GameBoy Player"],
-        games: ["Dr Mario",
+        titles: ["Dr Mario",
         "Ultraman Club (JP)",
         "Tetris",
         "Super Mario Land 3:  Wario Land",
@@ -203,10 +204,10 @@ INFO_TABLE = [
         "Pocket Monsters Silver Version"] },
     { game_system: "GameBoy Color",
         consoles: ["GameBoy Color (Pink)", "GameBoy Color (Pokemon)", "GameBoy Advance", "GameCube GameBoy Player"],
-        games: [] },
+        titles: [] },
     { game_system: "Gameboy Advance",
         consoles: ["GameBoy Advance", "DS (Blue)", "DS (Silver)", "GameCube GameBoy Player"],
-        games: ["Super Mario Advance",
+        titles: ["Super Mario Advance",
         "Megaman Zero 4",
         "Megaman Battle Network 4:  Blue Moon",
         "Pokemon Leaf Green Version",
@@ -236,7 +237,7 @@ INFO_TABLE = [
         "Kingdom Hearts:  Chain of Memories"] },
     { game_system: "DS",
         consoles: ["DS", "3DS (Purple)", "3DS (Zelda)", "New 3DS", "New 3DS XL (Majora's Mask)", "New 3DS XL (Pokemon Sun and Moon)"],
-        games: ["Advanced Wars:  Dual Strike",
+        titles: ["Advanced Wars:  Dual Strike",
         "Avatar:  The Burning Earth",
         "Brain Age",
         "Brain Age 2",
@@ -268,7 +269,7 @@ INFO_TABLE = [
         "Zoo Tycoon DS"] },
     { game_system: "3DS",
         consoles: ["3DS (Purple)", "3DS (Zelda)", "New 3DS", "New 3DS XL (Majora's Mask)", "New 3DS XL (Pokemon Sun and Moon)"],
-        games: ["Animal Crossing:  New Leaf",
+        titles: ["Animal Crossing:  New Leaf",
         "Codename Steam",
         "The Legend of Zelda:  Ocarina of Time 3D",
         "The Legend of Zelda:  Majora's Mask 3D",
@@ -294,42 +295,22 @@ INFO_TABLE = [
         "Super Smash Bros 3DS"] },
     { game_system: "New 3DS",
         consoles: ["New 3DS", "New 3DS XL (Majora's Mask)"],
-        games: ["Xenoblade Chronicles 3D"] },
+        titles: ["Xenoblade Chronicles 3D"] },
     { game_system: "3DS (Japan)",
         consoles: ["New 3DS XL (Pokemon Sun and Moon)"],
-        games: ["Super Mario Bros. 2 (JP) (Famicom VC)",
+        titles: ["Super Mario Bros. 2 (JP) (Famicom VC)",
         "Rockman X (Super Famicom VC)",
         "Final Fantasy (JP) (Famicom VC)"] }
 ]
 
-PS2_GAMES = [
-    "A Series of Unfortunate Events",
-    "American Idol",
-    "ATV Offroad Fury 2",
-    "Final Fantasy X",
-    "Hot Shots Golf 3",
-    "Katamari Damacy",
-    "Kingdom Hearts",
-    "Kingdom Hearts II",
-    "Mega Man X Collection",
-    "Naruto:  Ultimate Ninja",
-    "Naruto:  Ultimate Ninja 2",
-    "Shadow the Hedgehog",
-    "Shrek 2",
-    "Sly 3:  Honor Among Thieves",
-    "Spongebob Squarepants:  Battle For Bikini Bottom",
-    "Spongebob Squarepants Movie, The",
-    "Spongebob Squarepants:  Lights, Camera, Pants",
-    "SSX Tricky"
-]
 
 INFO_TABLE.each do |info|
     gs = GameSystem.create(name: info[:game_system])
     info[:consoles].each do |console|
         gs.consoles.find_or_create_by(name: console)
     end
-    info[:games].each do |game|
-        gs.games.find_or_create_by(name: game)
+    info[:titles].each do |title|
+        gs.titles.find_or_create_by(name: title)
     end
 end
 
