@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :titles
   resources :game_systems
   resources :games
   resources :consoles do
