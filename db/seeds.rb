@@ -41,7 +41,7 @@ INFO_TABLE = [
         ] },
     { game_system: "Dreamcast",
         consoles: ["Dreamcast"],
-        games: [] },
+        games: ["Sega Smash Pack Volume 1"] },
     { game_system: "Super Famicom",
         consoles: ["Super Famicom"],
         games: [] },
