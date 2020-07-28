@@ -1,0 +1,303 @@
+[
+    {
+        "id": 1154,
+        "name": "Nintendo Entertainment System",
+        "created_at": "2020-07-28T22:06:06.870Z",
+        "updated_at": "2020-07-28T22:06:06.870Z",
+        "region": null
+    },
+    {
+        "id": 1155,
+        "name": "Nintendo 64 - Jungle Green (Modded)",
+        "created_at": "2020-07-28T22:06:06.931Z",
+        "updated_at": "2020-07-28T22:06:06.931Z",
+        "region": null
+    },
+    {
+        "id": 1156,
+        "name": "Nintendo 64 - Jungle Green (Modded)",
+        "created_at": "2020-07-28T22:06:07.048Z",
+        "updated_at": "2020-07-28T22:06:07.048Z",
+        "region": null
+    },
+    {
+        "id": 1157,
+        "name": "PlayStation 2",
+        "created_at": "2020-07-28T22:06:07.322Z",
+        "updated_at": "2020-07-28T22:06:07.322Z",
+        "region": null
+    },
+    {
+        "id": 1158,
+        "name": "Dreamcast",
+        "created_at": "2020-07-28T22:06:07.741Z",
+        "updated_at": "2020-07-28T22:06:07.741Z",
+        "region": null
+    },
+    {
+        "id": 1159,
+        "name": "Super Famicom",
+        "created_at": "2020-07-28T22:06:07.798Z",
+        "updated_at": "2020-07-28T22:06:07.798Z",
+        "region": null
+    },
+    {
+        "id": 1160,
+        "name": "Super Nintendo Entertainment System(?)",
+        "created_at": "2020-07-28T22:06:07.832Z",
+        "updated_at": "2020-07-28T22:06:07.832Z",
+        "region": null
+    },
+    {
+        "id": 1161,
+        "name": "Xbox One",
+        "created_at": "2020-07-28T22:06:08.189Z",
+        "updated_at": "2020-07-28T22:06:08.189Z",
+        "region": null
+    },
+    {
+        "id": 1162,
+        "name": "Nintendo Switch",
+        "created_at": "2020-07-28T22:06:08.237Z",
+        "updated_at": "2020-07-28T22:06:08.237Z",
+        "region": null
+    },
+    {
+        "id": 1163,
+        "name": "Wii U",
+        "created_at": "2020-07-28T22:06:08.266Z",
+        "updated_at": "2020-07-28T22:06:08.266Z",
+        "region": null
+    },
+    {
+        "id": 1164,
+        "name": "Wii U",
+        "created_at": "2020-07-28T22:06:08.741Z",
+        "updated_at": "2020-07-28T22:06:08.741Z",
+        "region": null
+    },
+    {
+        "id": 1165,
+        "name": "GameCube (with Action Replay)",
+        "created_at": "2020-07-28T22:06:09.060Z",
+        "updated_at": "2020-07-28T22:06:09.060Z",
+        "region": null
+    },
+    {
+        "id": 1166,
+        "name": "GameCube",
+        "created_at": "2020-07-28T22:06:09.113Z",
+        "updated_at": "2020-07-28T22:06:09.113Z",
+        "region": null
+    },
+    {
+        "id": 1167,
+        "name": "PlayStation 4",
+        "created_at": "2020-07-28T22:06:09.370Z",
+        "updated_at": "2020-07-28T22:06:09.370Z",
+        "region": null
+    },
+    {
+        "id": 1168,
+        "name": "Super NES Mini",
+        "created_at": "2020-07-28T22:06:09.523Z",
+        "updated_at": "2020-07-28T22:06:09.523Z",
+        "region": null
+    },
+    {
+        "id": 1169,
+        "name": "Genesis",
+        "created_at": "2020-07-28T22:06:09.948Z",
+        "updated_at": "2020-07-28T22:06:09.948Z",
+        "region": null
+    },
+    {
+        "id": 1170,
+        "name": "GameBoy Pocket",
+        "created_at": "2020-07-28T22:06:10.119Z",
+        "updated_at": "2020-07-28T22:06:10.119Z",
+        "region": null
+    },
+    {
+        "id": 1171,
+        "name": "GameBoy Color (Pink)",
+        "created_at": "2020-07-28T22:06:10.143Z",
+        "updated_at": "2020-07-28T22:06:10.143Z",
+        "region": null
+    },
+    {
+        "id": 1172,
+        "name": "GameBoy Color (Pokemon)",
+        "created_at": "2020-07-28T22:06:10.162Z",
+        "updated_at": "2020-07-28T22:06:10.162Z",
+        "region": null
+    },
+    {
+        "id": 1173,
+        "name": "GameBoy Advance",
+        "created_at": "2020-07-28T22:06:10.196Z",
+        "updated_at": "2020-07-28T22:06:10.196Z",
+        "region": null
+    },
+    {
+        "id": 1174,
+        "name": "GameCube GameBoy Player",
+        "created_at": "2020-07-28T22:06:10.230Z",
+        "updated_at": "2020-07-28T22:06:10.230Z",
+        "region": null
+    },
+    {
+        "id": 1175,
+        "name": "GameBoy Color (Pink)",
+        "created_at": "2020-07-28T22:06:10.920Z",
+        "updated_at": "2020-07-28T22:06:10.920Z",
+        "region": null
+    },
+    {
+        "id": 1176,
+        "name": "GameBoy Color (Pokemon)",
+        "created_at": "2020-07-28T22:06:10.939Z",
+        "updated_at": "2020-07-28T22:06:10.939Z",
+        "region": null
+    },
+    {
+        "id": 1177,
+        "name": "GameBoy Advance",
+        "created_at": "2020-07-28T22:06:10.957Z",
+        "updated_at": "2020-07-28T22:06:10.957Z",
+        "region": null
+    },
+    {
+        "id": 1178,
+        "name": "GameCube GameBoy Player",
+        "created_at": "2020-07-28T22:06:10.980Z",
+        "updated_at": "2020-07-28T22:06:10.980Z",
+        "region": null
+    },
+    {
+        "id": 1179,
+        "name": "GameBoy Advance",
+        "created_at": "2020-07-28T22:06:11.008Z",
+        "updated_at": "2020-07-28T22:06:11.008Z",
+        "region": null
+    },
+    {
+        "id": 1180,
+        "name": "DS (Blue)",
+        "created_at": "2020-07-28T22:06:11.025Z",
+        "updated_at": "2020-07-28T22:06:11.025Z",
+        "region": null
+    },
+    {
+        "id": 1181,
+        "name": "DS (Silver)",
+        "created_at": "2020-07-28T22:06:11.043Z",
+        "updated_at": "2020-07-28T22:06:11.043Z",
+        "region": null
+    },
+    {
+        "id": 1182,
+        "name": "GameCube GameBoy Player",
+        "created_at": "2020-07-28T22:06:11.062Z",
+        "updated_at": "2020-07-28T22:06:11.062Z",
+        "region": null
+    },
+    {
+        "id": 1183,
+        "name": "DS",
+        "created_at": "2020-07-28T22:06:11.629Z",
+        "updated_at": "2020-07-28T22:06:11.629Z",
+        "region": null
+    },
+    {
+        "id": 1184,
+        "name": "3DS (Purple)",
+        "created_at": "2020-07-28T22:06:11.647Z",
+        "updated_at": "2020-07-28T22:06:11.647Z",
+        "region": null
+    },
+    {
+        "id": 1185,
+        "name": "3DS (Zelda)",
+        "created_at": "2020-07-28T22:06:11.702Z",
+        "updated_at": "2020-07-28T22:06:11.702Z",
+        "region": null
+    },
+    {
+        "id": 1186,
+        "name": "New 3DS",
+        "created_at": "2020-07-28T22:06:11.725Z",
+        "updated_at": "2020-07-28T22:06:11.725Z",
+        "region": null
+    },
+    {
+        "id": 1187,
+        "name": "New 3DS XL (Majora's Mask)",
+        "created_at": "2020-07-28T22:06:11.742Z",
+        "updated_at": "2020-07-28T22:06:11.742Z",
+        "region": null
+    },
+    {
+        "id": 1188,
+        "name": "New 3DS XL (Pokemon Sun and Moon)",
+        "created_at": "2020-07-28T22:06:11.765Z",
+        "updated_at": "2020-07-28T22:06:11.765Z",
+        "region": null
+    },
+    {
+        "id": 1189,
+        "name": "3DS (Purple)",
+        "created_at": "2020-07-28T22:06:12.440Z",
+        "updated_at": "2020-07-28T22:06:12.440Z",
+        "region": null
+    },
+    {
+        "id": 1190,
+        "name": "3DS (Zelda)",
+        "created_at": "2020-07-28T22:06:12.458Z",
+        "updated_at": "2020-07-28T22:06:12.458Z",
+        "region": null
+    },
+    {
+        "id": 1191,
+        "name": "New 3DS",
+        "created_at": "2020-07-28T22:06:12.477Z",
+        "updated_at": "2020-07-28T22:06:12.477Z",
+        "region": null
+    },
+    {
+        "id": 1192,
+        "name": "New 3DS XL (Majora's Mask)",
+        "created_at": "2020-07-28T22:06:12.494Z",
+        "updated_at": "2020-07-28T22:06:12.494Z",
+        "region": null
+    },
+    {
+        "id": 1193,
+        "name": "New 3DS XL (Pokemon Sun and Moon)",
+        "created_at": "2020-07-28T22:06:12.516Z",
+        "updated_at": "2020-07-28T22:06:12.516Z",
+        "region": null
+    },
+    {
+        "id": 1194,
+        "name": "New 3DS",
+        "created_at": "2020-07-28T22:06:13.003Z",
+        "updated_at": "2020-07-28T22:06:13.003Z",
+        "region": null
+    },
+    {
+        "id": 1195,
+        "name": "New 3DS XL (Majora's Mask)",
+        "created_at": "2020-07-28T22:06:13.026Z",
+        "updated_at": "2020-07-28T22:06:13.026Z",
+        "region": null
+    },
+    {
+        "id": 1196,
+        "name": "New 3DS XL (Pokemon Sun and Moon)",
+        "created_at": "2020-07-28T22:06:13.237Z",
+        "updated_at": "2020-07-28T22:06:13.237Z",
+        "region": null
+    }
+]

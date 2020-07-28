@@ -1,0 +1,135 @@
+[
+    {
+        "id": 577,
+        "name": "Nintendo Entertainment System",
+        "created_at": "2020-07-28T22:06:06.827Z",
+        "updated_at": "2020-07-28T22:06:06.827Z",
+        "region_locked": true
+    },
+    {
+        "id": 578,
+        "name": "Nintendo 64",
+        "created_at": "2020-07-28T22:06:06.914Z",
+        "updated_at": "2020-07-28T22:06:06.914Z",
+        "region_locked": true
+    },
+    {
+        "id": 580,
+        "name": "PlayStation 2",
+        "created_at": "2020-07-28T22:06:07.308Z",
+        "updated_at": "2020-07-28T22:06:07.308Z",
+        "region_locked": true
+    },
+    {
+        "id": 581,
+        "name": "Dreamcast",
+        "created_at": "2020-07-28T22:06:07.726Z",
+        "updated_at": "2020-07-28T22:06:07.726Z",
+        "region_locked": true
+    },
+    {
+        "id": 582,
+        "name": "Super Nintendo Entertainment System",
+        "created_at": "2020-07-28T22:06:07.784Z",
+        "updated_at": "2020-07-28T22:06:07.784Z",
+        "region_locked": true
+    },
+    {
+        "id": 584,
+        "name": "Xbox One",
+        "created_at": "2020-07-28T22:06:08.174Z",
+        "updated_at": "2020-07-28T22:06:08.174Z",
+        "region_locked": false
+    },
+    {
+        "id": 585,
+        "name": "Nintendo Switch",
+        "created_at": "2020-07-28T22:06:08.222Z",
+        "updated_at": "2020-07-28T22:06:08.222Z",
+        "region_locked": false
+    },
+    {
+        "id": 586,
+        "name": "Wii U",
+        "created_at": "2020-07-28T22:06:08.251Z",
+        "updated_at": "2020-07-28T22:06:08.251Z",
+        "region_locked": true
+    },
+    {
+        "id": 587,
+        "name": "Wii",
+        "created_at": "2020-07-28T22:06:08.727Z",
+        "updated_at": "2020-07-28T22:06:08.727Z",
+        "region_locked": true
+    },
+    {
+        "id": 589,
+        "name": "GameCube",
+        "created_at": "2020-07-28T22:06:09.099Z",
+        "updated_at": "2020-07-28T22:06:09.099Z",
+        "region_locked": true
+    },
+    {
+        "id": 590,
+        "name": "PlayStation 4",
+        "created_at": "2020-07-28T22:06:09.351Z",
+        "updated_at": "2020-07-28T22:06:09.351Z",
+        "region_locked": false
+    },
+    {
+        "id": 591,
+        "name": "Super NES Mini",
+        "created_at": "2020-07-28T22:06:09.509Z",
+        "updated_at": "2020-07-28T22:06:09.509Z",
+        "region_locked": true
+    },
+    {
+        "id": 592,
+        "name": "Genesis",
+        "created_at": "2020-07-28T22:06:09.935Z",
+        "updated_at": "2020-07-28T22:06:09.935Z",
+        "region_locked": true
+    },
+    {
+        "id": 593,
+        "name": "GameBoy",
+        "created_at": "2020-07-28T22:06:10.103Z",
+        "updated_at": "2020-07-28T22:06:10.103Z",
+        "region_locked": false
+    },
+    {
+        "id": 594,
+        "name": "GameBoy Color",
+        "created_at": "2020-07-28T22:06:10.906Z",
+        "updated_at": "2020-07-28T22:06:10.906Z",
+        "region_locked": false
+    },
+    {
+        "id": 595,
+        "name": "Gameboy Advance",
+        "created_at": "2020-07-28T22:06:10.995Z",
+        "updated_at": "2020-07-28T22:06:10.995Z",
+        "region_locked": false
+    },
+    {
+        "id": 596,
+        "name": "DS",
+        "created_at": "2020-07-28T22:06:11.616Z",
+        "updated_at": "2020-07-28T22:06:11.616Z",
+        "region_locked": false
+    },
+    {
+        "id": 597,
+        "name": "3DS",
+        "created_at": "2020-07-28T22:06:12.425Z",
+        "updated_at": "2020-07-28T22:06:12.425Z",
+        "region_locked": true
+    },
+    {
+        "id": 598,
+        "name": "New 3DS",
+        "created_at": "2020-07-28T22:06:12.987Z",
+        "updated_at": "2020-07-28T22:06:12.987Z",
+        "region_locked": true
+    }
+]

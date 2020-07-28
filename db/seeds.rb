@@ -5,12 +5,15 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-
+File.write('./lib/systems.json', GameSystem.all.to_json)
+File.write('./lib/consoles.json', Console.all.to_json)
+File.write('./lib/titles.json', Title.all.to_json)
+File.write('./lib/games.json', Game.all.to_json)
 GameSystem.destroy_all
 Console.destroy_all
 Title.destroy_all
 Game.destroy_all
-
+GAME_SYSTEM_TABLE = File.read('./lib/systems.json')
 INFO_TABLE = [
     { game_system: "Nintendo Entertainment System", 
         consoles: ["Nintendo Entertainment System"],
@@ -313,4 +316,6 @@ INFO_TABLE.each do |info|
         gs.titles.find_or_create_by(name: title)
     end
 end
+
+
 
