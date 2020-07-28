@@ -1,135 +1,135 @@
 [
     {
-        "id": 577,
+        "id": 646,
         "name": "Nintendo Entertainment System",
-        "created_at": "2020-07-28T22:06:06.827Z",
-        "updated_at": "2020-07-28T22:06:06.827Z",
+        "created_at": "2020-07-28T22:37:41.082Z",
+        "updated_at": "2020-07-28T22:37:41.082Z",
         "region_locked": true
     },
     {
-        "id": 578,
+        "id": 648,
         "name": "Nintendo 64",
-        "created_at": "2020-07-28T22:06:06.914Z",
-        "updated_at": "2020-07-28T22:06:06.914Z",
+        "created_at": "2020-07-28T22:37:41.245Z",
+        "updated_at": "2020-07-28T22:37:41.245Z",
         "region_locked": true
     },
     {
-        "id": 580,
+        "id": 649,
         "name": "PlayStation 2",
-        "created_at": "2020-07-28T22:06:07.308Z",
-        "updated_at": "2020-07-28T22:06:07.308Z",
+        "created_at": "2020-07-28T22:37:41.408Z",
+        "updated_at": "2020-07-28T22:37:41.408Z",
         "region_locked": true
     },
     {
-        "id": 581,
+        "id": 650,
         "name": "Dreamcast",
-        "created_at": "2020-07-28T22:06:07.726Z",
-        "updated_at": "2020-07-28T22:06:07.726Z",
+        "created_at": "2020-07-28T22:37:41.668Z",
+        "updated_at": "2020-07-28T22:37:41.668Z",
         "region_locked": true
     },
     {
-        "id": 582,
-        "name": "Super Nintendo Entertainment System",
-        "created_at": "2020-07-28T22:06:07.784Z",
-        "updated_at": "2020-07-28T22:06:07.784Z",
+        "id": 652,
+        "name": "Super Nintendo Enterntainment System",
+        "created_at": "2020-07-28T22:37:41.736Z",
+        "updated_at": "2020-07-28T22:37:41.736Z",
         "region_locked": true
     },
     {
-        "id": 584,
+        "id": 653,
         "name": "Xbox One",
-        "created_at": "2020-07-28T22:06:08.174Z",
-        "updated_at": "2020-07-28T22:06:08.174Z",
+        "created_at": "2020-07-28T22:37:41.890Z",
+        "updated_at": "2020-07-28T22:37:41.890Z",
         "region_locked": false
     },
     {
-        "id": 585,
+        "id": 654,
         "name": "Nintendo Switch",
-        "created_at": "2020-07-28T22:06:08.222Z",
-        "updated_at": "2020-07-28T22:06:08.222Z",
+        "created_at": "2020-07-28T22:37:41.927Z",
+        "updated_at": "2020-07-28T22:37:41.927Z",
         "region_locked": false
     },
     {
-        "id": 586,
+        "id": 655,
         "name": "Wii U",
-        "created_at": "2020-07-28T22:06:08.251Z",
-        "updated_at": "2020-07-28T22:06:08.251Z",
+        "created_at": "2020-07-28T22:37:41.961Z",
+        "updated_at": "2020-07-28T22:37:41.961Z",
         "region_locked": true
     },
     {
-        "id": 587,
+        "id": 656,
         "name": "Wii",
-        "created_at": "2020-07-28T22:06:08.727Z",
-        "updated_at": "2020-07-28T22:06:08.727Z",
+        "created_at": "2020-07-28T22:37:42.232Z",
+        "updated_at": "2020-07-28T22:37:42.232Z",
         "region_locked": true
     },
     {
-        "id": 589,
+        "id": 658,
         "name": "GameCube",
-        "created_at": "2020-07-28T22:06:09.099Z",
-        "updated_at": "2020-07-28T22:06:09.099Z",
+        "created_at": "2020-07-28T22:37:42.538Z",
+        "updated_at": "2020-07-28T22:37:42.538Z",
         "region_locked": true
     },
     {
-        "id": 590,
+        "id": 659,
         "name": "PlayStation 4",
-        "created_at": "2020-07-28T22:06:09.351Z",
-        "updated_at": "2020-07-28T22:06:09.351Z",
+        "created_at": "2020-07-28T22:37:43.074Z",
+        "updated_at": "2020-07-28T22:37:43.074Z",
         "region_locked": false
     },
     {
-        "id": 591,
+        "id": 660,
         "name": "Super NES Mini",
-        "created_at": "2020-07-28T22:06:09.509Z",
-        "updated_at": "2020-07-28T22:06:09.509Z",
+        "created_at": "2020-07-28T22:37:43.294Z",
+        "updated_at": "2020-07-28T22:37:43.294Z",
         "region_locked": true
     },
     {
-        "id": 592,
+        "id": 661,
         "name": "Genesis",
-        "created_at": "2020-07-28T22:06:09.935Z",
-        "updated_at": "2020-07-28T22:06:09.935Z",
+        "created_at": "2020-07-28T22:37:43.552Z",
+        "updated_at": "2020-07-28T22:37:43.552Z",
         "region_locked": true
     },
     {
-        "id": 593,
+        "id": 662,
         "name": "GameBoy",
-        "created_at": "2020-07-28T22:06:10.103Z",
-        "updated_at": "2020-07-28T22:06:10.103Z",
+        "created_at": "2020-07-28T22:37:43.661Z",
+        "updated_at": "2020-07-28T22:37:43.661Z",
         "region_locked": false
     },
     {
-        "id": 594,
+        "id": 663,
         "name": "GameBoy Color",
-        "created_at": "2020-07-28T22:06:10.906Z",
-        "updated_at": "2020-07-28T22:06:10.906Z",
+        "created_at": "2020-07-28T22:37:43.995Z",
+        "updated_at": "2020-07-28T22:37:43.995Z",
         "region_locked": false
     },
     {
-        "id": 595,
+        "id": 664,
         "name": "Gameboy Advance",
-        "created_at": "2020-07-28T22:06:10.995Z",
-        "updated_at": "2020-07-28T22:06:10.995Z",
+        "created_at": "2020-07-28T22:37:44.017Z",
+        "updated_at": "2020-07-28T22:37:44.017Z",
         "region_locked": false
     },
     {
-        "id": 596,
+        "id": 665,
         "name": "DS",
-        "created_at": "2020-07-28T22:06:11.616Z",
-        "updated_at": "2020-07-28T22:06:11.616Z",
+        "created_at": "2020-07-28T22:37:44.385Z",
+        "updated_at": "2020-07-28T22:37:44.385Z",
         "region_locked": false
     },
     {
-        "id": 597,
+        "id": 666,
         "name": "3DS",
-        "created_at": "2020-07-28T22:06:12.425Z",
-        "updated_at": "2020-07-28T22:06:12.425Z",
+        "created_at": "2020-07-28T22:37:44.830Z",
+        "updated_at": "2020-07-28T22:37:44.830Z",
         "region_locked": true
     },
     {
-        "id": 598,
+        "id": 667,
         "name": "New 3DS",
-        "created_at": "2020-07-28T22:06:12.987Z",
-        "updated_at": "2020-07-28T22:06:12.987Z",
+        "created_at": "2020-07-28T22:37:45.127Z",
+        "updated_at": "2020-07-28T22:37:45.127Z",
         "region_locked": true
     }
 ]

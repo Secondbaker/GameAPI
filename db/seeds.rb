@@ -5,7 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-File.write('./lib/systems.json', GameSystem.all.to_json)
 File.write('./lib/consoles.json', Console.all.to_json)
 File.write('./lib/titles.json', Title.all.to_json)
 File.write('./lib/games.json', Game.all.to_json)
@@ -13,7 +12,7 @@ GameSystem.destroy_all
 Console.destroy_all
 Title.destroy_all
 Game.destroy_all
-GAME_SYSTEM_TABLE = File.read('./lib/systems.json')
+GAME_SYSTEM_TABLE = JSON.parse(File.read('./lib/systems.json'))
 INFO_TABLE = [
     { game_system: "Nintendo Entertainment System", 
         consoles: ["Nintendo Entertainment System"],
@@ -306,14 +305,21 @@ INFO_TABLE = [
         "Final Fantasy (JP) (Famicom VC)"] }
 ]
 
+puts GAME_SYSTEM_TABLE.inspect
+GAME_SYSTEM_TABLE.each do |gs|
+    puts gs.inspect
+    GameSystem.create(name: gs["name"], region_locked: gs["region_locked"])
+end
+
+
 
 INFO_TABLE.each do |info|
-    gs = GameSystem.create(name: info[:game_system])
+    GameSystem.find_by(name: info[:game_system])
     info[:consoles].each do |console|
-        gs.consoles.find_or_create_by(name: console)
+        Console.find_or_create_by(name: console)
     end
     info[:titles].each do |title|
-        gs.titles.find_or_create_by(name: title)
+        Title.find_or_create_by(name: title)
     end
 end
 
